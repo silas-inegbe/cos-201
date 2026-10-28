@@ -1,0 +1,8 @@
+# MIVA Open University - Sample Course Dataset
+# Format: COURSE_CODE|COURSE_TITLE|CREDIT_UNITS
+COS201|Programming I|3
+COS203|Discrete Mathematics|3
+MTH201|Linear Algebra|3
+GST201|Nigerian Peoples and Culture|2
+PHY201|General Physics III|3
+GST203|Philosophy, Logic and Human Existence|2

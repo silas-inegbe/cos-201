@@ -1,0 +1,21 @@
+# Compiled class files
+bin/
+*.class
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# Virtual machines / temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Course Management GUI",
+            "request": "launch",
+            "mainClass": "com.miva.coursemanagement.CourseManagementGUI",
+            "projectName": "cos-201"
+        },
+        {
+            "type": "java",
+            "name": "Launch Course Management (Console)",
+            "request": "launch",
+            "mainClass": "com.miva.coursemanagement.Main",
+            "projectName": "cos-201",
+            "console": "integratedTerminal"
+        }
+    ]
+}
+

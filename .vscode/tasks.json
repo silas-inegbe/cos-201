@@ -1,0 +1,39 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Project",
+            "type": "shell",
+            "command": "javac -d bin -sourcepath src src/com/miva/coursemanagement/*.java",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$javac"],
+            "presentation": {
+                "echo": true,
+                "reveal": "silent",
+                "focus": false,
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Run Student Course Management System",
+            "type": "shell",
+            "command": "java -cp bin com.miva.coursemanagement.Main",
+            "dependsOn": "Build Project",
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "new"
+            }
+        }
+    ]
+}
+
